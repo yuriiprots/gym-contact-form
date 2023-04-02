@@ -1,0 +1,87 @@
+body {
+  width: 100%;
+  margin: auto;
+
+  color: white;
+  font-family: "Domine", serif;
+  font-size: 18px;
+
+  background-image: linear-gradient(rgb(29, 29, 29), rgba(65, 65, 65, 0.438)),
+    url("../img/gym.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.container {
+  margin: 60px 0 0 0;
+}
+
+#title,
+#description {
+  margin: 10px auto;
+  text-align: center;
+}
+
+form {
+  margin: 50px auto;
+  max-width: 500px;
+  min-width: 300px;
+  width: 60%;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+  padding: 40px 50px;
+  border-radius: 10px;
+}
+
+input,
+textarea,
+select {
+  width: 98%;
+  margin: 5px 0 0 0;
+  min-height: 2em;
+}
+
+input:hover {
+  border-color: white;
+}
+
+select {
+  min-height: 2em;
+  width: 100%;
+}
+
+.inline {
+  width: unset;
+  margin: 0 2px 0 0;
+  vertical-align: middle;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.interests {
+  padding-bottom: 5px;
+}
+
+p {
+  margin-bottom: 5px;
+}
+
+label {
+  padding: 0 5px 0 0;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button {
+  width: 100%;
+  height: 50px;
+  font-size: 18px;
+  border-radius: 5px;
+  color: white;
+  background-color: blue;
+  border-color: blue;
+}
